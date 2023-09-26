@@ -9,7 +9,4 @@ import java.util.List;
 @Repository
 public interface AdministratorRepository extends JpaRepository<Administrator, Integer> {
     List<Administrator> getAdministratorByAdminId(Integer id);
-
-
-
 }
