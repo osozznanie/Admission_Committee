@@ -44,7 +44,7 @@ To use this project, you can follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourcompany/admissions-committee.git
+   git clone https://github.com/osozznanie/Admission_Committee.git
    
 ### Configuring the database connection
 
