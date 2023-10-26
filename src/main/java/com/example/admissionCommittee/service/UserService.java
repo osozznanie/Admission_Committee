@@ -85,4 +85,10 @@ public class UserService implements UserDetailsService {
                 .setParameter("paramId", idMin).getResultList();
     }
 
+    public void registerPoints(Long applicantId, int points) {
+        User user = userRepository.findById(Math.toIntExact(applicantId)).orElseThrow();
+        user.setPoints(points);
+        userRepository.save(user);
+    }
+
 }

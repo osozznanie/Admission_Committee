@@ -76,4 +76,12 @@ public class User implements UserDetails {
     public boolean isEnabled() {
         return true;
     }
+
+    public void setPoints(int points) {
+        this.points = points;
+    }
+
+    public int getPoints() {
+        return points;
+    }
 }
