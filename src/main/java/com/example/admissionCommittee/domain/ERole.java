@@ -1,7 +1,6 @@
 package com.example.admissionCommittee.domain;
 
 public enum ERole {
-    ADMINISTRATOR,
-    APPLICANT,
-    ADMISSIONS_COMMITTEE;
+    ROLE_ADMINISTRATOR,
+    ROLE_APPLICANT;
 }
