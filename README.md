@@ -1,6 +1,3 @@
-Creating a README file on GitHub is essential to provide an overview of your project, its purpose, and instructions on how to use it. Below is a template for your README file based on your project's current tasks:
-
----
 
 # Admission_Committee
 
