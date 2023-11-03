@@ -5,14 +5,14 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Регистрация</title>
+    <title>Registration</title>
 </head>
 
 <body>
 <div>
     <%--@elvariable id="userForm" type=""--%>
     <form:form method="POST" modelAttribute="userForm">
-        <h2>Регистрация</h2>
+        <h2>Registration</h2>
         <div>
             <form:input type="text" path="username" placeholder="Username"
                         autofocus="true"></form:input>
@@ -28,9 +28,9 @@
             <form:errors path="password"></form:errors>
                 ${passwordError}
         </div>
-        <button type="submit">Зарегистрироваться</button>
+        <button type="submit">Register</button>
     </form:form>
-    <a href="/">Главная</a>
+    <a href="/">Home</a>
 </div>
 </body>
 </html>
